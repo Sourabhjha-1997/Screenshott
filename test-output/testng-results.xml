@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-17T11:39:30 IST" name="Default suite" finished-at="2022-11-17T11:40:14 IST" duration-ms="44070">
+    <groups>
+    </groups>
+    <test started-at="2022-11-17T11:39:30 IST" name="Default test" finished-at="2022-11-17T11:40:14 IST" duration-ms="44070">
+      <class name="testcases.Objects">
+        <test-method is-config="true" signature="object()[pri:0, instance:testcases.Objects@cf67838]" started-at="2022-11-17T11:39:30 IST" name="object" finished-at="2022-11-17T11:39:33 IST" duration-ms="2941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- object -->
+        <test-method signature="Adektop()[pri:0, instance:testcases.Objects@cf67838]" started-at="2022-11-17T11:39:33 IST" name="Adektop" description="Automate Desktop button" finished-at="2022-11-17T11:39:52 IST" duration-ms="19159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adektop -->
+        <test-method is-config="true" signature="Screenshot()[pri:0, instance:testcases.Objects@cf67838]" started-at="2022-11-17T11:39:53 IST" name="Screenshot" finished-at="2022-11-17T11:39:53 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshot -->
+        <test-method signature="BLaptops()[pri:0, instance:testcases.Objects@cf67838]" started-at="2022-11-17T11:39:53 IST" name="BLaptops" description="Automate Laptop and notebooks buttons" finished-at="2022-11-17T11:40:13 IST" duration-ms="19901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BLaptops -->
+        <test-method is-config="true" signature="Screenshot()[pri:0, instance:testcases.Objects@cf67838]" started-at="2022-11-17T11:40:13 IST" name="Screenshot" finished-at="2022-11-17T11:40:13 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshot -->
+        <test-method signature="component()[pri:0, instance:testcases.Objects@cf67838]" started-at="2022-11-17T11:40:13 IST" name="component" description="Automate component button" finished-at="2022-11-17T11:40:14 IST" duration-ms="535" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Refine Search] but found [Monitors]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Refine Search] but found [Monitors]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at testcases.Objects.component(Objects.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- component -->
+        <test-method is-config="true" signature="Screenshot()[pri:0, instance:testcases.Objects@cf67838]" started-at="2022-11-17T11:40:14 IST" name="Screenshot" finished-at="2022-11-17T11:40:14 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshot -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testcases.Objects@cf67838]" started-at="2022-11-17T11:40:14 IST" name="Teardown" finished-at="2022-11-17T11:40:14 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- testcases.Objects -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
